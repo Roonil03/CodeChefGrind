@@ -54,7 +54,7 @@ int main() {
         for(int i=0;i<M;++i){
             a[i] = c[i];
         }
-        wht(a,false);
+        abefhis(a,false);
         for(int i=0;i<M;++i){
             a[i] = a[i]*a[i];
         }
