@@ -1,0 +1,51 @@
+# Maximum And Or
+## Rating: 2028
+### Description:
+Chef has been recently introduced to bitwise operations.   
+Chefina defines a function `F(P, Q, R)` = `(R | P)` - `(Q & P)`   
+where | represents the `bitwise or` and & represents the `bitwise and` operator. 
+
+Chef has three non-negative integers A, B, and C.   
+Chef has to count the number of integers X, such that: 
+- 0 < X < 2<sup>C</sup>; 
+- `F(X, A, B)` has the maximum possible value among all values of X. 
+
+### Input Format 
+- The first line of input will contain a single integer T, denoting the number of test cases. 
+- Each test case consists of a single line containing three space-separated integers A, B, C- as defined in the statement. 
+
+### Output Format 
+- For each test case, output on a new line, the count of X such that `F(X, A, B)` is maximum possible
+
+### Constraints 
+- 1 <= T <= 2 * 10 <sup>5 </sup>
+- 0 <= C <= 30 
+- 0 <= A, B < 2<sup>C</sup>
+
+### Example:
+#### Example 1:
+**Input:**
+```
+3
+1 2 3
+0 0 2
+87 986 15
+```
+**Output:**
+```
+4
+1
+64
+```
+**Explaination:**  
+Test case 1:   
+- There are 4 possible values of X which give maximum value for `F(X, A, B)`. These values are 4, 5, 6, 7.  
+For all these values, `F(X, A, B)` is 5. 
+
+Test case 2:  
+- The only possible value of X which gives maximum value for `F(X, A, B)` is 3.  
+For X = 3 
+    - 0 <= X < 2 <sup>2 </sup>
+    - F(3,0,0) = (0 | 3) - (0 & 3) = 3 
+- It can be shown that F(X, 0, 0) cannot have a value greater than 3 for 0 <= X < 2 <sup>2</sup>
+
