@@ -1,6 +1,6 @@
 # Starters 192
 ## Contest Division: Division 2
-## Position: 846 / 1687
+## Position: 805 / 1687
 ## Questions:
 ## Security Lines
 ### Description:
