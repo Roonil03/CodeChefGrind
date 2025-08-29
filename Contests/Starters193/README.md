@@ -1,6 +1,6 @@
 # Starters 193
 ## Contest Division: Division 2
-## Position:
+## Position: 1020 / 1597
 ## Questions:
 ## Count Odd Even Divisors
 ### Description:
