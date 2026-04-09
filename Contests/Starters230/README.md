@@ -1,6 +1,6 @@
 # Starters 230
 ## Contest Division: Division 2
-## Position: 
+## Position: 70 
 # Questions:
 ## Reselling Items
 ### Description:
