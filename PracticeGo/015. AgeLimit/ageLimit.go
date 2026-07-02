@@ -195,11 +195,12 @@ func solve() {
 	x := in.rInt()
 	y := in.rInt()
 	a := in.rInt()
-	if x <= a && y > a{
-	    fmt.Fprintln(out, "yes")
-	} else{
-	    fmt.Fprintln(out, "no")
+	if x <= a && y > a {
+		fmt.Fprintln(out, "yes")
+	} else {
+		fmt.Fprintln(out, "no")
 	}
+}
 
 func main() {
 	out = bufio.NewWriterSize(os.Stdout, 1<<20)
